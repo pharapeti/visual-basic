@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A804EAB-0605-4C06-B9FF-94D45E60B9D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SDD_YR12_AE1.My.MyApplication</StartupObject>
+    <RootNamespace>SDD_YR12_AE1</RootNamespace>
+    <AssemblyName>SDD_YR12_AE1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Documents and Settings\patrice.harapeti.MARIST\Desktop\VB_AE1\SDD_YR12_AE1\BUILD\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SDD_YR12_AE1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SDD_YR12_AE1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AF3BBEE9A40576D0D9E10586A6486D560694E35B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SDD_YR12_AE1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Magnetic.Designer.vb">
+      <DependentUpon>Magnetic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Magnetic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome.Designer.vb">
+      <DependentUpon>FormHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic1.Designer.vb">
+      <DependentUpon>FormTopic1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic1Quiz.Designer.vb">
+      <DependentUpon>FormTopic1Quiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic1Quiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic2.Designer.vb">
+      <DependentUpon>FormTopic2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic3.Designer.vb">
+      <DependentUpon>FormTopic3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic4.Designer.vb">
+      <DependentUpon>FormTopic4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic5.Designer.vb">
+      <DependentUpon>FormTopic5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopic6.Designer.vb">
+      <DependentUpon>FormTopic6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopic6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTopics.Designer.vb">
+      <DependentUpon>FormTopics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTopics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Magnetic.resx">
+      <DependentUpon>Magnetic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome.resx">
+      <DependentUpon>FormHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTopic1.resx">
+      <DependentUpon>FormTopic1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTopic1Quiz.resx">
+      <DependentUpon>FormTopic1Quiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTopic5.resx">
+      <DependentUpon>FormTopic5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTopics.resx">
+      <DependentUpon>FormTopics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SDD_YR12_AE1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00530-IMG_8131-7-cm-scoria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gneiss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone_w.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sed2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\igneous2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\met3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attract1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REPEL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REPEL2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\science2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnetism__magnetic_field.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit .gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spring.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,2 +1,2 @@
 # visual-basic
-Just a visual basic project. Submitted for an assignment in High School.
+A visual basic project I submitted for an assignment in High School.
